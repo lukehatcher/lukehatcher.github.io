@@ -87,9 +87,9 @@ export default function Header() {
         </div>
       </div>
       <div className="header-container">
-        <span className="header-name-container">
+        {/* <span className="header-name-container">
           lukehatcher.io
-        </span>
+        </span> */}
         {!mobile
           ? (
             <nav className="nav-container">
