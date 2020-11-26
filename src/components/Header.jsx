@@ -1,16 +1,51 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faFileAlt } from '@fortawesome/free-solid-svg-icons';
 
 export default function Header() {
+  const nameTextRef = useRef('');
+  const titleTextRef = useRef('');
+  const nameText = "Hi, I'm Luke Hatcher";
+  const titleText = '- aspiring software engineer -';
+
+  useEffect(() => {
+    let count = 0;
+    let go = 0;
+    const autoWriteText = (txt, strLen, domRef, int) => {
+      domRef.current.innerText = txt.slice(0, count);
+      count++;
+      if (count > strLen) {
+        count = 0;
+        clearInterval(int);
+        go++;
+        if (go === 1) {
+          bottom();
+        }
+      }
+    };
+    const top = () => {
+      const interval1 = setInterval(() => {
+        autoWriteText(nameText, nameText.length, nameTextRef, interval1);
+      }, 50);
+    };
+
+    const bottom = () => {
+      const interval2 = setInterval(() => {
+        autoWriteText(titleText, titleText.length, titleTextRef, interval2);
+      }, 50);
+    };
+
+    top();
+  }, []);
+
   return (
     <>
       <div className="img-container">
         <img src="public/images/code11.png" alt="space view of earth" className="code-image" />
         <div className="intro-text-container">
-          <p className="hi-name-text">Hi, I&apos;m Luke Hatcher</p>
-          <p className="swe-text"> - aspiring software engineer - </p>
+          <p className="hi-name-text" ref={nameTextRef} />
+          <p className="swe-text" ref={titleTextRef} />
         </div>
       </div>
       <div className="header-container">

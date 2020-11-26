@@ -28,13 +28,13 @@
   cursor: pointer;
 }
 
-.img-container {
+.img-container { 
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: auto;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 
 .intro-text-container {
@@ -73,7 +73,7 @@
 
 
 .fa {
-  transition: 0.2s ease-in-out all;
+  transition: 0.1s ease-in-out all;
 }
 
 .fa:hover {
