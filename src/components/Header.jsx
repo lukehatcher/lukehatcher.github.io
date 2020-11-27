@@ -8,7 +8,7 @@ import {
 export default function Header() {
   // const mobileView = window.innerWidth <= 960;
   const [mobile, setMobile] = useState(window.innerWidth <= 960);
-  const [bars, setBars] = useState(true);
+  const [bars, setBars] = useState(false);
   const nameTextRef = useRef('');
   const titleTextRef = useRef('');
   const modalRef = useRef(null);
@@ -58,6 +58,7 @@ export default function Header() {
         setMobile(true);
       } else {
         setMobile(false);
+        setBars(false);
       }
     }, 100);
 
@@ -112,7 +113,7 @@ export default function Header() {
                   handleBarsClick();
                 }}
               >
-                {bars
+                {!bars
                   ? (
                     <FontAwesomeIcon
                       className="fa bars"
