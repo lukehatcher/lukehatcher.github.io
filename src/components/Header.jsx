@@ -87,9 +87,6 @@ export default function Header() {
         </div>
       </div>
       <div className="header-container">
-        {/* <span className="header-name-container">
-          lukehatcher.io
-        </span> */}
         {!mobile
           ? (
             <nav className="nav-container">
@@ -129,22 +126,32 @@ export default function Header() {
                   )
                   : (
                     <FontAwesomeIcon
-                      className="fa bars"
+                      className="fa times"
                       icon={faTimes}
                       onClick={() => {
                         setBars(!bars);
                       }}
                       color="white"
-                      size="2x"
+                      size=".2x"
                     />
                   )}
               </nav>
               <div className="modal-container">
-                <div className="modal" ref={modalRef} style={{ bottom: '10vh' }} >
-                  <span className="modal-link">GitHub</span>
-                  <span className="modal-link">LinkedIn</span>
-                  <span className="modal-link">Email</span>
-                  <span className="modal-link">Resume</span>
+                <div className="modal" ref={modalRef} style={{ bottom: '10vh' }}>
+                  <div className="modal-link-container">
+                    <a className="modal-link" href="https://github.com/lukehatcher" title="GitHub profile">
+                      GitHub
+                    </a>
+                    <a className="modal-link" href="https://www.linkedin.com/in/luke-hatcher-414173152/" title="LinkdIn profile">
+                      LinkedIn
+                    </a>
+                    <a className="modal-link" href="mailto:lukehatcher98@gmail.com" title="email">
+                      Email
+                    </a>
+                    <a className="modal-link" href="lukehatcher.me" title="resume">
+                      Resume
+                    </a>
+                  </div>
                 </div>
               </div>
             </>
