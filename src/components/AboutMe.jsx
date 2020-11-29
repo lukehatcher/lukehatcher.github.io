@@ -15,22 +15,23 @@ export default function AboutMe() {
           </div>
           <div className="skill-card">
             <p className="skill-card-title">Frontend&nbsp;📱</p>
-            <p id="skill">React.js (hooks)</p>
+            <p id="skill">React (hooks)</p>
             <p id="skill">jQuery</p>
+            <p id="skill">Webpack</p>
           </div>
           <div className="skill-card">
             <p className="skill-card-title">Backend&nbsp;💾</p>
-            <p id="skill">Node.js</p>
-            <p id="skill">Express.js</p>
-            <p id="skill">MongoDB</p>
-            <p id="skill">mySQL</p>
+            <p id="skill">Node</p>
+            <p id="skill">Express</p>
+            <p id="skill">MongoDB, Mongoose</p>
+            <p id="skill">MySQL</p>
             <p id="skill">Docker</p>
           </div>
           <div className="skill-card">
             <p className="skill-card-title">Other&nbsp;⚡️</p>
             <p id="skill">Jest & Enzyme</p>
-            <p id="skill">git/GitHub</p>
-            <p id="skill">webpack/babel</p>
+            <p id="skill">Git, GitHub</p>
+            <p id="skill">Webpack</p>
           </div>
         </div>
       </div>

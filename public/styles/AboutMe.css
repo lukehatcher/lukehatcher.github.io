@@ -2,22 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
 
 .aboutme-container {
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: row;
-  height: 50vw;
+  height: auto;
   width: 100vw;
+  background-color: #f2f2f2;
 }
 
 .left-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* color: white; */
   width: 50vw;
   height: 100%;
-  /* background-color: white; */
-  background-color: #f2f2f2;
-  /* font-family: 'IBM Plex Sans', sans-serif; */
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 15px;
@@ -40,7 +38,6 @@
 }
 
 .skills-container {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
   max-width: 50vw;
@@ -48,11 +45,13 @@
 
 .skill-card {
   /* background-color: #f2f2f2; */
+  position: relative;
   background-color: white;
   box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.55);
   border-radius: 7.5px;
   margin: 1vw;
-  height: 25vh;
+  /* height: 25vh; */
+  height: auto;
   width: 10vw;
   text-align: center;
   transition: 0.2s ease all;
@@ -66,7 +65,7 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   /* text-shadow: rgb(167, 165, 165) 1px 1px 5px; */
-  font-size: 2.5vh;
+  font-size: 1.5vw;
 }
 
 /* right side of info */
@@ -76,9 +75,10 @@
   /* align-items: center; */
   justify-content: center;
   width: 50vw;
-  height: 100%;
-  background-color: #f2f2f2;
+  /* height: 100%; */
+  height: auto;
   color: black;
+  /* border: 1px solid black; */
 }
 
 .right-card {
@@ -105,9 +105,10 @@
 }
 
 .bio-text {
-  padding-top: 50px;
+  padding-top: 0;
   padding-left: 100px;
   padding-right: 100px;
+  padding-bottom: 40px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 18px;
