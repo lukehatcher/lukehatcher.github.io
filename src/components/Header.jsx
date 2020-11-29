@@ -13,7 +13,7 @@ export default function Header() {
   const titleTextRef = useRef('');
   const modalRef = useRef(null);
   const nameText = "Hi, I'm Luke Hatcher";
-  const titleText = '- aspiring software engineer -';
+  const titleText = '- fullstack software developer -';
 
   const debounce = (fxn, time) => {
     let timer;
@@ -81,7 +81,7 @@ export default function Header() {
   return (
     <>
       <div className="img-container">
-        <img src="public/images/code11.png" alt="space view of earth" className="code-image" />
+        <img src="public/images/code1.png" alt="space view of earth" className="code-image" />
         <div className="intro-text-container">
           <p className="hi-name-text" ref={nameTextRef} />
           <p className="swe-text" ref={titleTextRef} />
