@@ -1,0 +1,45 @@
+.projects-container {
+  background-color: white;
+  height: auto;
+  /* border: 2px solid red; */
+}
+
+.projects-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 5vh;
+  text-align: center;
+}
+
+.project-cards-containers {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-project {
+  width: 50vw;
+  background-color: pink;
+}
+
+.right-shorts-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-short-top {
+  height: 50%;
+  width: 50vw;
+  background-color: cadetblue;
+}
+
+.right-short-bottom {
+  height: 50%;
+  width: 50vw;
+  background-color: bisque;
+}
+
+.bottom-project {
+  height: 300px;
+  background-color: grey;
+}

@@ -133,7 +133,7 @@ export default function Header() {
                         setBars(!bars);
                       }}
                       color="white"
-                      size=".2x"
+                      size="sm"
                     />
                   )}
               </nav>
