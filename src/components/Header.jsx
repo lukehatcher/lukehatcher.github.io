@@ -91,16 +91,16 @@ export default function Header() {
         {!mobile
           ? (
             <nav className="nav-container">
-              <a className="links" href="https://github.com/lukehatcher" title="GitHub profile">
+              <a className="links" href="https://github.com/lukehatcher" target="_blank" rel="noreferrer" title="GitHub profile">
                 <FontAwesomeIcon className="fa" icon={faGithub} color="white" size="2x" />
               </a>
-              <a className="links" href="https://www.linkedin.com/in/luke-hatcher-414173152/" title="LinkdIn profile">
+              <a className="links" href="https://www.linkedin.com/in/luke-hatcher-414173152/" target="_blank" rel="noreferrer" title="LinkdIn profile">
                 <FontAwesomeIcon className="fa" icon={faLinkedin} color="white" size="2x" />
               </a>
-              <a className="links" href="mailto:lukehatcher98@gmail.com" title="email">
+              <a className="links" href="mailto:lukehatcher98@gmail.com" target="_blank" rel="noreferrer" title="email">
                 <FontAwesomeIcon className="fa" icon={faEnvelope} color="white" size="2x" />
               </a>
-              <a className="links" href="lukehatcher.me" title="resume">
+              <a className="links" href="lukehatcher.me" target="_blank" rel="noreferrer" title="resume">
                 <FontAwesomeIcon className="fa" icon={faFileAlt} color="white" size="2x" />
               </a>
             </nav>
