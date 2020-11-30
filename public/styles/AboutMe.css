@@ -55,7 +55,7 @@
   width: 10vw;
   text-align: center;
   transition: 0.2s ease all;
-  /* font-size: 3vw; */
+  font-size: 1.1vw;
 }
 
 .skill-card-title {
@@ -78,7 +78,6 @@
   /* height: 100%; */
   height: auto;
   color: black;
-  /* border: 1px solid black; */
 }
 
 .right-card {
@@ -99,7 +98,7 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   /* text-shadow: rgb(167, 165, 165) 1px 1px 5px; */
-  font-size: 4vh;
+  font-size: 2.5vw;
 }
 
 .bio-text {
@@ -109,6 +108,6 @@
   padding-bottom: 40px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.45vw;
   line-height: 1.6;
 }

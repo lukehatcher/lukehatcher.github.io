@@ -4,7 +4,6 @@ import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer() {
   const handleScrollUpClick = () => {
-    console.log('hi');
     window.scrollTo({
       top: 0,
       left: 0,
