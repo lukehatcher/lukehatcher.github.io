@@ -7,11 +7,15 @@
 .projects-title {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 5vh;
+  font-size: 6vh;
   text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .project-cards-containers {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   height: 600px;
   display: flex;
   flex-direction: row;
@@ -19,7 +23,12 @@
 
 .left-project {
   width: 50vw;
-  background-color: pink;
+  background-color: rgb(174, 170, 170);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
 }
 
 .right-shorts-container {
@@ -28,18 +37,35 @@
 }
 
 .right-short-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 50%;
   width: 50vw;
-  background-color: cadetblue;
+  background-color: rgb(171, 176, 176);
+  border: 1px solid black;
 }
 
 .right-short-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 50%;
   width: 50vw;
-  background-color: bisque;
+  background-color: rgb(199, 197, 194);
+  border: 1px solid black;
 }
 
 .bottom-project {
-  height: 300px;
-  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  height: 400px;
+  background-color: rgb(171, 164, 164);
+  border: 1px solid black;
 }

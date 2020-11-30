@@ -4,7 +4,7 @@ export default function AboutMe() {
   return (
     <div className="aboutme-container">
       <div className="left-container">
-        <img className="headshot" src="public/images/headshot.png" alt="headshot of Luke Hatcher" />
+        <img className="headshot" src="public/images/headshot.png" alt="headshot of Luke Hatcher" loading="lazy" />
         <div className="skills-container">
           <div className="skill-card">
             <p className="skill-card-title">Languages&nbsp;✅</p>
