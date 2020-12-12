@@ -17,7 +17,7 @@ export default function AboutMe() {
             <p className="skill-card-title">Frontend&nbsp;📱</p>
             <p id="skill">React (hooks)</p>
             <p id="skill">jQuery</p>
-            <p id="skill">Webpack</p>
+            <p id="skill">Webpack, Babel</p>
           </div>
           <div className="skill-card">
             <p className="skill-card-title">Backend&nbsp;💾</p>
@@ -31,7 +31,6 @@ export default function AboutMe() {
             <p className="skill-card-title">Other&nbsp;⚡️</p>
             <p id="skill">Jest & Enzyme</p>
             <p id="skill">Git, GitHub</p>
-            <p id="skill">Webpack</p>
           </div>
         </div>
       </div>
