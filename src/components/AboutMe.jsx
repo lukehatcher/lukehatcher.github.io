@@ -25,12 +25,13 @@ export default function AboutMe() {
             <p id="skill">Express</p>
             <p id="skill">MongoDB, Mongoose</p>
             <p id="skill">MySQL</p>
-            <p id="skill">Docker</p>
+            <p id="skill">PostgreSQL</p>
           </div>
           <div className="skill-card">
             <p className="skill-card-title">Other&nbsp;⚡️</p>
             <p id="skill">Jest & Enzyme</p>
             <p id="skill">Git, GitHub</p>
+            <p id="skill">Docker, DockerHub</p>
           </div>
         </div>
       </div>
