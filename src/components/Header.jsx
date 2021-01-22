@@ -60,7 +60,7 @@ export default function Header() {
         setMobile(false);
         setBars(false);
       }
-    }, 100);
+    }, 50);
 
     window.addEventListener('resize', handleResize);
 

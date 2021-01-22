@@ -1,59 +1,39 @@
-import React from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 
 export default function AboutMe() {
+  const containerRef = useRef(null);
+  const [mobileView, setMobileView] = useState(false);
+  
+  const handleResize = function() {
+    if (window.innerWidth <= 960) {
+      setMobileView(true);
+    } else {
+      setMobileView(false);
+    }
+  }
+
+  useEffect(() => {
+    handleResize(); // once to set everything
+    window.addEventListener('resize', handleResize); // set listner for future resizing
+
+  }, [])
+
+
   return (
-    <div className="aboutme-container">
+    <div className="aboutme-container" ref={containerRef} style={{flexDirection: mobileView ? 'column' : 'row'}}>
       <div className="left-container">
         <img className="headshot" src="public/images/headshot.png" alt="headshot of Luke Hatcher" loading="lazy" />
-        <div className="skills-container">
-          <div className="skill-card">
-            <p className="skill-card-title">Languages&nbsp;✅</p>
-            <p id="skill">JavaScript</p>
-            <p id="skill">TypeScript</p>
-            <p id="skill">Python</p>
-            <p id="skill">HTML & CSS</p>
-          </div>
-          <div className="skill-card">
-            <p className="skill-card-title">Frontend&nbsp;📱</p>
-            <p id="skill">React (hooks)</p>
-            <p id="skill">jQuery</p>
-            <p id="skill">Webpack, Babel</p>
-          </div>
-          <div className="skill-card">
-            <p className="skill-card-title">Backend&nbsp;💾</p>
-            <p id="skill">Node</p>
-            <p id="skill">Express</p>
-            <p id="skill">MongoDB, Mongoose</p>
-            <p id="skill">MySQL</p>
-            <p id="skill">PostgreSQL</p>
-          </div>
-          <div className="skill-card">
-            <p className="skill-card-title">Other&nbsp;⚡️</p>
-            <p id="skill">Jest & Enzyme</p>
-            <p id="skill">Git, GitHub</p>
-            <p id="skill">Docker, DockerHub</p>
-          </div>
-        </div>
       </div>
       <div className="right-container">
         <div className="right-card">
           <p className="blurb-title">A little about me</p>
           <p className="bio-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Etiam vestibulum sagittis est ac placerat.
-            Sed luctus neque non pharetra fringilla.
-            Morbi viverra sagittis condimentum. Nulla leo odio,
-            tempor et urna imperdiet, consectetur viverra felis.
-            Curabitur ac mollis nunc. Sed luctus lacus eu lorem accumsan,
-            ut iaculis sem hendrerit. Sed odio magna, ultrices nec odio tincidunt,
-            faucibus fringilla ligula. Mauris non lorem aliquet, lacinia tellus quis,
-            suscipit erat. Curabitur non tincidunt nibh, vitae facilisis massa.
-            Etiam vestibulum sagittis est ac placerat.
-            Sed luctus neque non pharetra fringilla.
-            Morbi viverra sagittis condimentum. Nulla leo odio,
-            tempor et urna imperdiet, consectetur viverra felis.
-            Etiam vestibulum sagittis est ac placerat.
-            Sed luctus neque non pharetra fringilla.
+            Welcome to my website! My names Luke and I am a recent graduate from the University of Washington.
+            In college I studied chemistry and math and picked up programming through my studies.
+            I am passionate about building products that simplify peoples lives. I am especially interested
+            in building tools to help make programmers lives easier as well as building tools that help people learn things better.
+            I currently specialize in fullstack JavaScript with a love for React/React Native.
+            Feel free to check out some of my projects below and get in touch!
           </p>
         </div>
       </div>
