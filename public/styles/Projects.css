@@ -1,8 +1,9 @@
 .projects-container {
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
+  background-color: #192532;
   height: auto;
-  width: 100vw;
-  /* border: 2px solid red; */
+  width: 100%;
+  color: white;
 }
 
 .projects-title {
