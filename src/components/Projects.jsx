@@ -1,13 +1,18 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export default function Projects() {
   return (
     <div className="projects-container">
-      <div className="projects-title">Projects</div>
+      <div className="projects-title">Software Applications</div>
       <div className="project-cards-containers">
         <div className="left-project">
-          <a href="https://github.com/lukehatcher/vscode-ios-todos">ThoughtBubble</a>
           <div id="thought-bubble-text">
+            <a href="https://github.com/lukehatcher/vscode-ios-todos" className="proj-titles">
+              ThoughtBubble&nbsp;&nbsp;
+              <FontAwesomeIcon className="fa" icon={faGithub} color="black" size="1x" />
+            </a>
             <p>
               React Native application for keeping track of your projects.
               Syncs with your code editor (VSCode)
@@ -16,29 +21,39 @@ export default function Projects() {
         </div>
         <div className="right-shorts-container">
           <div className="right-short-top">
-            <a href="https://github.com/Home2Go/carousel-service">light-slider</a>
             <div id="fec-text">
+              <a href="https://github.com/Home2Go/carousel-service" className="proj-titles">
+                light-slider&nbsp;&nbsp;
+                <FontAwesomeIcon className="fa" icon={faGithub} color="black" size="1x" />
+              </a>
               <p>
-                Responsive and dynamic image viewer
+                Responsive and dynamic image viewer built with React
               </p>
             </div>
           </div>
           <div className="right-short-bottom">
-            <a href="https://github.com/footwork-web/gallery-service">footwork back-end</a>
             <div id="sdc-text">
+              <a href="https://github.com/footwork-web/gallery-service" className="proj-titles">
+                footwork back-end&nbsp;&nbsp;
+                <FontAwesomeIcon className="fa" icon={faGithub} color="black" size="1x" />
+              </a>
               <p>
                 Service oriented back-end architecture for
-                open source ecommerace-like application footwork
+                the open-source ecommerace-like application footwork
               </p>
             </div>
           </div>
         </div>
       </div>
       <div className="bottom-project">
-        <a href="https://github.com/lukehatcher/algo-sorter">algo-sorter</a>
         <div id="algo-sorter-text">
+          <a href="https://github.com/lukehatcher/algo-sorter" className="proj-titles">
+            algo-sorter&nbsp;&nbsp;
+            <FontAwesomeIcon className="fa" icon={faGithub} color="black" size="1x" />
+          </a>
           <p>
-            NPM package for sorting arrays with your choice of algorithm. Comes with TypeScript support.
+            NPM package for sorting different array types with your choice of algorithm.
+            Comes with TypeScript support.
           </p>
         </div>
       </div>
