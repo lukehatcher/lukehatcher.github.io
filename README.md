@@ -2,6 +2,5 @@ Visit my website [here](https://lukehatcher.github.io/).
 
 #### todos:
 - [ ] add resume pdf
-- [ ] add project background pics
-- [ ] add github icon to project cards
+- [ ] 'about me' card is too narrow on mobile
 - [ ] find a better font
