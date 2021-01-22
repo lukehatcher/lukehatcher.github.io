@@ -69,3 +69,18 @@
   background-color: rgb(171, 164, 164);
   border: 1px solid black;
 }
+
+#algo-sorter-text {
+  width: 40%;
+  text-align: center; 
+}
+
+#thought-bubblt-text {
+  width: 45%;
+  text-align: center;
+}
+
+#fec-text, #sdc-text {
+  width: 45%;
+  text-align: center;
+}

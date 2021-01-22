@@ -17,7 +17,6 @@
   align-items: center;
   justify-content: center;
   width: 32vw;
-  /* height: 100%; */
   height: auto;
   padding: 15px;
 }
@@ -31,10 +30,8 @@
 
 .right-container {
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   width: 68vw;
-  /* height: 100%; */
   height: auto;
   color: black;
 }
@@ -53,12 +50,10 @@
 }
 
 .blurb-title {
-  /* padding-top: 10px; */
+  text-align: center; 
   margin-top: 40px;
-  /* padding-bottom: 15px; */
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  /* text-shadow: rgb(167, 165, 165) 1px 1px 5px; */
   font-size: 35px;
 }
 
