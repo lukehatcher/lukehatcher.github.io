@@ -7,10 +7,10 @@ export default function Projects() {
       <div className="project-cards-containers">
         <div className="left-project">
           <a href="https://github.com/lukehatcher/vscode-ios-todos">ThoughtBubble</a>
-          <div id="thought-bubblt-text">
+          <div id="thought-bubble-text">
             <p>
               React Native application for keeping track of your projects.
-              Syncs with your code editor
+              Syncs with your code editor (VSCode)
             </p>
           </div>
         </div>
