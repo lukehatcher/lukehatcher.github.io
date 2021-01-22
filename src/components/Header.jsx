@@ -13,7 +13,7 @@ export default function Header() {
   const titleTextRef = useRef('');
   const modalRef = useRef(null);
   const nameText = "Hi, I'm Luke Hatcher";
-  const titleText = '- fullstack software developer -';
+  const titleText = '- fullstack software engineer -';
 
   const debounce = (fxn, time) => {
     let timer;
@@ -60,7 +60,7 @@ export default function Header() {
         setMobile(false);
         setBars(false);
       }
-    }, 50);
+    }, 1);
 
     window.addEventListener('resize', handleResize);
 

@@ -3,24 +3,22 @@ import React, { useRef, useEffect, useState } from 'react';
 export default function AboutMe() {
   const containerRef = useRef(null);
   const [mobileView, setMobileView] = useState(false);
-  
-  const handleResize = function() {
+
+  const handleResize = function () {
     if (window.innerWidth <= 960) {
       setMobileView(true);
     } else {
       setMobileView(false);
     }
-  }
+  };
 
   useEffect(() => {
     handleResize(); // once to set everything
     window.addEventListener('resize', handleResize); // set listner for future resizing
-
-  }, [])
-
+  }, []);
 
   return (
-    <div className="aboutme-container" ref={containerRef} style={{flexDirection: mobileView ? 'column' : 'row'}}>
+    <div className="aboutme-container" ref={containerRef} style={{ flexDirection: mobileView ? 'column' : 'row' }}>
       <div className="left-container">
         <img className="headshot" src="public/images/headshot.png" alt="headshot of Luke Hatcher" loading="lazy" />
       </div>
