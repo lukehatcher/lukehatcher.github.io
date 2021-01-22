@@ -1,5 +1,5 @@
 .projects-container {
-  background-color: white;
+  background-color: #f2f2f2;
   height: auto;
   /* border: 2px solid red; */
 }
@@ -75,7 +75,7 @@
   text-align: center; 
 }
 
-#thought-bubblt-text {
+#thought-bubble-text {
   width: 45%;
   text-align: center;
 }
