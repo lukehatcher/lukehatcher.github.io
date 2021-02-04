@@ -13,7 +13,7 @@ export default function Footer() {
   return (
     <div className="footer-container">
       <div className="copyright-container">
-        <span className="copyright">Luke Hatcher &copy; 2020</span>
+        <span className="copyright">Luke Hatcher &copy; 2021</span>
       </div>
       <div
         className="arrow-container"
