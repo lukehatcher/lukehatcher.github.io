@@ -99,7 +99,8 @@ export default function Header() {
               <a className="links" href="mailto:lukehatcher98@gmail.com" target="_blank" rel="noreferrer" title="email">
                 <FontAwesomeIcon className="fa" icon={faEnvelope} color="white" size="2x" />
               </a>
-              <a className="links" href="https://luke-resume.s3-us-west-2.amazonaws.com/luke-hatcher-resume.pdf" target="_blank" rel="noreferrer" title="resume">
+              {/* old resume link: https://luke-resume.s3-us-west-2.amazonaws.com/luke-hatcher-resume.pdf */}
+              <a className="links" href="https://luke-resume.s3-us-west-2.amazonaws.com/lukeHatcher-resume.pdf" target="_blank" rel="noreferrer" title="resume">
                 <FontAwesomeIcon className="fa" icon={faFileAlt} color="white" size="2x" />
               </a>
             </nav>
