@@ -80,7 +80,7 @@ export default function Header() {
   return (
     <>
       <div className="img-container">
-        <img className="code-image" src="public/images/code1.png" alt="space view of earth" loading="lazy" />
+        <img className="code-image" src="public/images/code.png" alt="code editor" loading="lazy" />
         <div className="intro-text-container">
           <p className="hi-name-text" ref={nameTextRef} />
           <p className="swe-text" ref={titleTextRef} />

@@ -26,7 +26,7 @@ export default function AboutMe() {
         <div className="right-card">
           <p className="blurb-title">A little about me</p>
           <p className="bio-text">
-            Welcome to my website! My names Luke and I am a recent graduate from the University of Washington.
+            Welcome to my website! My name is Luke and I am a recent graduate from the University of Washington.
             In college I studied chemistry and math and picked up programming through my studies.
             I am passionate about building products that simplify peoples lives. I am especially interested
             in building tools to help make programmers lives easier as well as building tools that help people learn things better.

@@ -16,7 +16,6 @@
 }
 
 .left-container {
-  /* border: 1px solid red; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,9 +47,7 @@
   box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.55);
   border-radius: 10px;
   margin: 35px;
-  /* width: 45vw; */
   width: 99%;
-  /* min-width: ; */
 }
 
 .blurb-title {
@@ -58,7 +55,6 @@
   margin-top: 40px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  /* font-size: 35px; */
   font-size: 3vw;
 }
 
@@ -71,5 +67,4 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
-  /* text-align: center; */
 }

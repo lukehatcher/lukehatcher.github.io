@@ -22,7 +22,7 @@ export default function Footer() {
           handleScrollUpClick();
         }}
       >
-        <FontAwesomeIcon icon={faAngleDoubleUp} color="white" size="2x" />
+        <FontAwesomeIcon icon={faAngleDoubleUp} color="black" size="2x" />
       </div>
     </div>
   );
