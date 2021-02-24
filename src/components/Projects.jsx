@@ -10,7 +10,7 @@ export default function Projects() {
         <div className="left-project">
           <img id="left-project-img" src="public/images/iphone.jpg" alt="iphone-background" loading="lazy" />
           <div id="thought-bubble-text">
-            <a href="https://github.com/lukehatcher/vscode-ios-todos" className="proj-titles">
+            <a href="https://github.com/lukehatcher/thoughtbubble" className="proj-titles">
               ThoughtBubble&nbsp;&nbsp;
               <FontAwesomeIcon className="fa" icon={faGithub} color="black" size="1x" />
             </a>
