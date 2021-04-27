@@ -20,18 +20,20 @@ export default function AboutMe() {
   return (
     <div className="aboutme-container" ref={containerRef} style={{ flexDirection: mobileView ? 'column' : 'row' }}>
       <div className="left-container">
-        <img className="headshot" src="public/images/headshot.png" alt="headshot of Luke Hatcher" loading="lazy" />
+        <img className="headshot" src="public/images/ibm-headshot.png" alt="headshot of Luke Hatcher" loading="lazy" />
       </div>
       <div className="right-container">
         <div className="right-card">
           <p className="blurb-title">A little about me</p>
           <p className="bio-text">
-            Welcome to my website! My name is Luke and I am a recent graduate from the University of Washington.
-            In college I studied chemistry and math and picked up programming through my studies.
-            I am passionate about building products that simplify peoples lives. I am especially interested
-            in building tools to help make programmers lives easier as well as building tools that help people learn things better.
-            I currently specialize in fullstack JavaScript with a love for React/React Native.
-            Feel free to check out some of my projects below and get in touch!
+            My name is Luke, a software engineer based in Seattle, Washington. In 2020 I graduated from the University of Washington where I studied chemistry and math.
+            I fell in love with programming while working in a computational chemistry research group at UW.
+            I currently work as a IBM cloud engineer.
+            I am passionate about building products that simplify peoples lives.
+            In my free time I enjoy working on thoughtBubble, a productivity ecosystem for developers where they can sync their thoughts
+            between their mobile devices and their code editors. Check it out below!
+            I specialize in fullstack TypeScript/JavaScript with a love for all things React/React Native and I dabble with Python on occasion.
+            Feel free to get in touch!
           </p>
         </div>
       </div>
